@@ -1,4 +1,4 @@
-DATE= "date +%M"
+minute = "date +%M"
 echo "Boris Angelov"
 if (minute % 2 -eq 0) echo "even" else "odd"
 if (git status --porcelain == nul) echo "dirty" else "clean"
